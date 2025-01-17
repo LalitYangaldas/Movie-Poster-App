@@ -1,0 +1,44 @@
+/* Navbar container */
+.navbar {
+  background-color: var(--background-color);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(230, 223, 223, 0.1);
+}
+
+/* Navbar links container */
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+/* Logout button styles */
+.logout-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-2px);
+}

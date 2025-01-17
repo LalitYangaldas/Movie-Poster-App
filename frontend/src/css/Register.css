@@ -1,0 +1,85 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8; /* Soft, neutral background */
+    font-family: 'Lato', sans-serif; /* Clean, modern font */
+}
+
+.register-form {
+    background: #ffffff; /* Crisp white background */
+    padding: 2.5rem;
+    border-radius: 12px; /* Slightly larger radius for elegance */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border for refinement */
+}
+
+.register-form h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif; /* Classic serif font for elegance */
+    font-size: 2rem;
+    color: #1a1a1a; /* Dark, rich text color */
+    letter-spacing: 1px; /* Slight spacing for sophistication */
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600; /* Semi-bold for emphasis */
+    color: #333333; /* Darker text for readability */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d4af37; /* Gold border for luxury */
+    border-radius: 6px; /* Slightly rounded corners */
+    font-size: 1rem;
+    color: #1a1a1a; /* Dark text for contrast */
+    background-color: #f8f8f8; /* Light background for inputs */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.form-group input:focus {
+    border-color: #b8860b; /* Darker gold on focus */
+    box-shadow: 0 0 8px rgba(184, 134, 11, 0.3); /* Subtle glow effect */
+    outline: none; /* Remove default outline */
+}
+
+.register-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #1a1a1a; /* Dark background for sophistication */
+    color: #ffffff; /* White text for contrast */
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600; /* Semi-bold for emphasis */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.register-button:hover {
+    background-color: #333333; /* Slightly lighter on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.register-button:active {
+    transform: translateY(0); /* Reset lift on click */
+}
+
+.error-message {
+    color: #d9534f; /* Soft red for errors */
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500; /* Medium weight for readability */
+}

@@ -1,0 +1,88 @@
+.main-content {
+  flex: 1;
+  padding: 2.5rem; /* Slightly more padding for spaciousness */
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #040a55; /* Soft, neutral background */
+  font-family: 'Lato', sans-serif; /* Clean, modern font */
+  color: #1a1a1a; /* Dark, rich text color for elegance */
+  line-height: 1.6; /* Improved readability with more line spacing */
+}
+
+.main-content h1, .main-content h2, .main-content h3 {
+  font-family: 'Playfair Display', serif; /* Classic serif font for headings */
+  color: #e6cf22; /* Dark, rich color for headings */
+  margin-bottom: 1.5rem; /* Consistent spacing below headings */
+  letter-spacing: 0.5px; /* Slight spacing for sophistication */
+}
+
+.main-content h1 {
+  font-size: 2.5rem; /* Large, bold heading */
+  font-weight: 700; /* Bold weight for emphasis */
+  
+}
+
+.main-content h2 {
+  font-size: 2rem; /* Medium heading */
+  font-weight: 600; /* Semi-bold weight */
+}
+
+.main-content h3 {
+  font-size: 1.5rem; /* Smaller heading */
+  font-weight: 500; /* Medium weight */
+}
+
+.main-content p {
+  margin-bottom: 1.5rem; /* Consistent spacing below paragraphs */
+  font-size: 1.1rem; /* Slightly larger font size for readability */
+  color: #333333; /* Darker text for contrast */
+}
+
+.main-content a {
+  color: #d4af37; /* Gold accent for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.main-content a:hover {
+  color: #b8860b; /* Darker gold on hover */
+  text-decoration: underline; /* Subtle underline on hover */
+}
+
+.main-content .section {
+  margin-bottom: 2.5rem; /* Consistent spacing between sections */
+  padding: 1.5rem;
+  background-color: #ffffff; /* Crisp white background for sections */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid rgba(0, 0, 0, 0.05); /* Very subtle border for refinement */
+}
+
+.main-content .section:last-child {
+  margin-bottom: 0; /* Remove margin for the last section */
+}
+
+.main-content .button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #1a1a1a; /* Dark background for sophistication */
+  color: #ffffff; /* White text for contrast */
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600; /* Semi-bold for emphasis */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.main-content .button:hover {
+  background-color: #333333; /* Slightly lighter on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.main-content .button:active {
+  transform: translateY(0); /* Reset lift on click */
+}
+
